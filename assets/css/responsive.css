@@ -11,7 +11,7 @@
         font-size: 1rem;
     }
 
-	.service .item-service {
+    .service .item-service {
         width: 100%;
     }
 
@@ -39,6 +39,10 @@
 
     .whyus h1 {
         font-size: 3.5rem;
+    }
+
+    .service .items-service {
+        width: 100%;
     }
 
     .whyus .item-whyus {

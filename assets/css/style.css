@@ -148,15 +148,18 @@ header li:hover a {
     text-align: center;
 }
 
-.service .items-service {
-    width: 100%;
+.service .container {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.service .items-service {
+    width: 50%;
 }
 
 .service .item-service {
-    width: 25%;
+    width: 100%;
     border-radius: 20px;
     background: #BE185D;
     padding: 30px;

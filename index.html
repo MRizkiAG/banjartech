@@ -9,7 +9,12 @@
     <link rel="stylesheet" href="assets/css/responsive.css">
     <link rel="stylesheet" type="text/css"
         href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
-	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- Link Slick.js -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" type="text/css"
+        href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
     <link rel="shortcut icon" href="assets/img/logo-banjartech.ico">
     <title>BanjarTech</title>
 </head>
@@ -83,8 +88,9 @@
     <section class="service">
         <div class="container">
             <h1>Layanan Kami</h1>
-            <div class="items-service">
-                <div class="item-service" data-aos="flip-right" data-aos-easing="ease-out-cubic" data-aos-duration="1500">
+            <div class="items-service slick-single">
+                <div class="item-service" data-aos="flip-right" data-aos-easing="ease-out-cubic"
+                    data-aos-duration="1500">
                     <div class="wrap-img">
                         <img src="assets/img/layanan-smarthome.jpg" alt="Smart Home">
                     </div>
@@ -92,7 +98,8 @@
                     <p>Buat rumahmu senyaman mungkin. Dengan Smart Home dari BanjarTech Teknologi, kamu bisa duduk manis
                         dan kendalikan semua perangkat elektronik menggunakan suaramu.</p>
                 </div>
-                <div class="item-service" data-aos="flip-right" data-aos-easing="ease-out-cubic" data-aos-duration="1500">
+                <div class="item-service" data-aos="flip-right" data-aos-easing="ease-out-cubic"
+                    data-aos-duration="1500">
                     <div class="wrap-img">
                         <img src="assets/img/layanan-smartoffice.jpg" alt="Smart Office">
                     </div>
@@ -101,12 +108,13 @@
                         perangkat-perangkat elektronik yang ada di kantor dengan Smart Office dari BanjarTech Teknologi.
                     </p>
                 </div>
-                <div class="item-service" data-aos="flip-right" data-aos-easing="ease-out-cubic" data-aos-duration="1500">
+                <div class="item-service" data-aos="flip-right" data-aos-easing="ease-out-cubic"
+                    data-aos-duration="1500">
                     <div class="wrap-img">
                         <img src="assets/img/layanan-automation.png" alt="Automation">
                     </div>
                     <h3>Automation</h3>
-                    <p>Tak hanya perangkat elektronik rumah dan kantoran saja, di BanjarTech Teknologi kamu juga bisa
+                    <p>Dengan BanjarTech Teknologi kamu juga bisa
                         kendalikan alat-alat yang kamu mau seperti motor, mobil, bahkan alat-alat berat industry hanya
                         dengan satu perintah dari suaramu.</p>
                 </div>
@@ -144,11 +152,12 @@
             </div>
         </div>
     </footer>
-	
-	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-	<script>
-		AOS.init();
-	</script>
+
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="assets/js/app.js"></script>
+
 </body>
 
 </html>
