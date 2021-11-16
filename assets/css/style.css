@@ -1,0 +1,262 @@
+body {
+    margin: auto;
+    padding: auto;
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+ul {
+    list-style: none;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+h3 {
+    font-size: 1.75rem;
+}
+
+h5 {
+    font-size: 1.25rem;
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    font-size: 1rem;
+}
+
+
+header {
+    background: #9D174D;
+    margin: auto;
+    height: 80px;
+}
+
+header .container {
+    width: 90%;
+    margin: auto;
+}
+
+header h1 {
+    color: #FFE3DC;
+    float: left;
+    margin: 15px;
+    text-align: center;
+}
+
+header li {
+    color: #FFE3DC;
+    float: right;
+    padding: 10px;
+    margin: 0px 10px;
+    border: 1px solid #FFE3DC;
+    border-radius: 5px;
+}
+
+header li:hover {
+    background: #FFE3DC;
+    transition: .5s;
+}
+
+header li a {
+    text-decoration: none;
+    color: #FFE3DC;
+    font-size: 1.5rem;
+}
+
+header li:hover a {
+    color: #9D174D;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.jumbotron {
+    height: 90vh;
+    background-color: #FFE3DC;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    display: flex;
+}
+
+.jumbotron h1 {
+    color: #9D174D;
+    font-size: 4rem;
+    width: 60%;
+}
+
+.jumbotron p {
+    color: #9D174D;
+    font-size: 1.5rem;
+    width: 80%;
+}
+
+.whyus {
+    background-color: #BE185D;
+    padding: 5vw 0;
+}
+
+.whyus h1 {
+    color: #FFE3DC;
+    text-align: center;
+}
+
+.whyus .items-whyus {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.whyus .item-whyus {
+    background: rgba(255, 227, 220, 0.5);
+    box-shadow: 0 8px 20px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(14px);
+    -webkit-backdrop-filter: blur(14px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    width: 40%;
+    padding: 20px;
+    margin: 20px;
+}
+
+.whyus .item-whyus h3 {
+    color: #FFE3DC;
+    text-align: center;
+}
+
+.whyus .item-whyus p {
+    color: #FFE3DC;
+    text-align: justify;
+}
+
+.service {
+    background-color: #FFE3DC;
+    padding: 5vw 0;
+}
+
+.service h1 {
+    color: #BE185D;
+    text-align: center;
+}
+
+.service .items-service {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.service .item-service {
+    width: 25%;
+    border-radius: 20px;
+    background: linear-gradient(145deg, #cb1a64, #ab1654);
+    box-shadow: 5px 5px 10px #5f0c2f,
+        -5px -5px 10px #ff248c;
+    padding: 30px;
+    margin: 10px;
+}
+
+.service .item-service:hover {
+    cursor: pointer;
+    border-radius: 20px;
+    background: #BE185D;
+    box-shadow: inset 5px 5px 10px #5f0c2f,
+        inset -5px -5px 10px #ff248c;
+}
+
+.service .item-service:hover h3,
+.service .item-service:hover p {
+    text-shadow: 5px 5px 10px #FFE3DC;
+}
+
+.service .item-service .wrap-img {
+    width: 100%;
+}
+
+.service .item-service .wrap-img img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+.service .item-service h3 {
+    color: #FFE3DC;
+    text-align: center;
+}
+
+.service .item-service p {
+    color: #FFE3DC;
+    text-align: center;
+}
+
+footer {
+    background: #9D174D;
+    margin: auto;
+    height: 200px;
+}
+
+footer .container {
+    width: 90%;
+    margin: auto;
+}
+
+footer .items-footer {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+footer .item-footer {
+    width: 30%;
+    color: #FFE3DC;
+}
+
+footer .item-footer:nth-child(2) {
+    display: flex;
+}
+
+footer .item-footer:nth-child(3) {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+footer .wrap-item:nth-child(1) {
+    width: 30%;
+}
+
+footer .wrap-item:nth-child(2) {
+    width: 70%;
+}
+
+footer .wrap-item:nth-child(2) a {
+    text-decoration: none;
+    color: #FFE3DC;
+}
+
+footer .wrap-item:nth-child(2) a:hover {
+    text-decoration: none;
+    color: #DBB4AD;
+}
+
+footer .item-footer i {
+    color: #FFE3DC;
+    margin: 0 10px;
+    font-size: 2rem;
+}
+
+footer .item-footer i:hover {
+    color: #DBB4AD;
+    cursor: pointer;
+}
